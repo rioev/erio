@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio - Eva Rio</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic" rel="stylesheet" />
+       <script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+       <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+       
+               <script type="text/javascript">
+            // When the window has finished loading create our google map below
+        
+            function initialize() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 9,
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(60.2100, 24.6550), // Alberganesplanadi
+                    // How you would like to style the map. 
+                    styles: [{stylers:[{hue:'#16a085'},{saturation:0}]},{featureType:'road',elementType:'geometry',stylers:[{lightness:100},{visibility:'simplified'}]},{featureType:'road',elementType:'labels',stylers:[{visibility:'off'}]}]
+                };
+
+                // Create the Google Map using out element and options defined above
+       var map = new google.maps.Map(document.getElementById('location-canvas'),mapOptions);
+		
+		//custom icon
+		var image = 'images/iconEva.png';	   
+	
+		var marker = new google.maps.Marker({
+                   map: map,
+				     icon: image,
+                   draggable: false,
+                   position: new google.maps.LatLng(60.2100, 24.6550)
+       });
+}
+                        
+google.maps.event.addDomListener(window, 'resize', initialize);
+google.maps.event.addDomListener(window, 'load', initialize);
+            
+        </script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header Wrapper -->
+			<div id="header-wrapper">
+				<div class="container">
+				  <div class="row">
+						<div class="12u">
+						
+							<!-- Header -->
+								<section id="header">
+                                    <span class="masthead">Service and UX designer</span>
+           
+                                                                               									<!-- Logo -->
+                                                         <div id="logo">
+										<h1><a href="#">- Eva Rio -</a>
+                                 	</h1>                                </div>
+                                    <!-- Nav -->										
+                                        <nav id="nav">
+											<ul>
+												<li class="current_page_item"><a href="index.html">Portfolio</a></li>
+												<li><a href="projects.html">Other projects</a></li>
+												<li><a href="about.html">About</a></li>
+										  </ul>
+									  </nav>
+								</section>
+						</div>
+				  </div>
+					<div class="row">
+						<div class="12u">
+
+							<!-- Banner -->
+								<section id="banner">
+										<span class="image image-full"><img src="images/pic01.jpg" alt="" /></span>
+									<header>
+											<h2>Hi, I'm Eva.</h2>
+											<span class="byline">I design services that are meaningful and easy to use</span>
+									</header>
+								</section>
+
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="12u">
+								
+							<!-- Intro -->
+								<section id="intro">
+								
+									<div>
+										<div class="row">
+											<div class="4u">
+												<section class="first">
+													<span class="pennant"><span class="fa fa-cogs"></span></span>
+													<header>
+														<h2>Service Design</h2>
+													</header>
+													<p>Know your users. Impact their lives. Understand their needs and behaviour and transform them into meaningful solutions and services.</p>
+												</section>
+											</div>
+											<div class="4u">
+												<section class="middle">
+													<span class="pennant pennant-alt2"><span class="fa fa-group"></span></span>
+													<header>
+                                                  <h2>User Experience</h2>
+                                               </header>
+													<p>Deliver the best possible experience to your users: solve incredible complex problems without them being aware of the solution.</p>
+												</section>
+											</div>
+											<div class="4u">
+												<section class="last">
+													<span class="pennant"><span class="fa fa-pencil-square"></span></span>
+													<header>
+														<h2>Interactive Prototyping</h2>
+													</header>
+													<p>Sometimes static wireframes and photoshop mockups don't just quite cut it. Show your ideas demoing navigations, animations and flows.</p>
+												</section>
+											</div>
+										</div>
+									</div>
+
+								</section>
+                                <div class="row">
+                                </div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							
+							<!-- Portfolio -->
+								<section>
+									<header class="major">
+										<h2>My Portfolio</h2>
+									</header>
+									<div>
+										<div class="row">
+											<div class="4u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic02.jpg" alt="" /></a>
+													<header>
+														<h3>Ipsum feugiat et dolor</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>	                                                    									<footer>
+														<a href="#" class="button alt">Find out more</a>
+													</footer>
+												</section>
+											</div>
+											<div class="4u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic03.jpg" alt="" /></a>
+													<header>
+														<h3>Sed etiam lorem nulla</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<a href="#" class="button alt">Find out more</a>
+													</footer>
+												</section>
+											</div>
+											<div class="4u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic04.jpg" alt="" /></a>
+													<header>
+														<h3>Consequat et tempus</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<a href="#" class="button alt">Find out more</a>
+													</footer>
+												</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="4u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic05.jpg" alt="" /></a>
+													<header>
+														<h3>Blandit sed adipiscing</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+										<footer>
+														<a href="#" class="button alt">Find out more</a>
+													</footer>
+												</section>
+											</div>
+											<div class="4u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic06.jpg" alt="" /></a>
+													<header>
+														<h3>Etiam nisl consequat</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<a href="#" class="button alt">Find out more</a>
+													</footer>
+												</section>
+											</div>
+											<div class="4u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic07.jpg" alt="" /></a>
+													<header>
+														<h3>Dolore nisl feugiat</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<a href="#" class="button alt">Find out more</a>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+
+							<!-- Blog -->
+								<section>
+									<header class="major">
+										<h2>The Blog</h2>
+									</header>
+									<div>
+										<div class="row">
+											<div class="6u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic08.jpg" alt="" /></a>
+													<header>
+														<h3>Magna tempus consequat lorem</h3>
+														<span class="byline">Posted 45 minutes ago</span>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+
+													<footer class="actions">
+														<a href="#" class="button fa fa-file-text">Continue Reading</a>
+														<a href="#" class="button alt fa fa-comment">33 comments</a>
+													</footer>
+												</section>
+											</div>
+											<div class="6u">
+												<section class="box">
+													<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic09.jpg" alt="" /></a>
+													<header>
+														<h3>Aptent veroeros et aliquam</h3>
+														<span class="byline">Posted 45 minutes ago</span>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+													<footer class="actions">
+														<a href="#" class="button fa fa-file-text">Continue Reading</a>
+														<a href="#" class="button alt fa fa-comment">33 comments</a>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</div>
+								</section>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+				
+				<!-- Footer -->
+					<section id="footer" class="container">
+                    <div class="row">
+                    	<div class="12u">
+                        <h1><i>Thank you</i> for stopping by. </h1>
+                      </div>
+                     </div>
+                    
+               <!-- Contact -->
+					<div class="row">
+							<div class="8u">
+                            
+                         <section>
+               			<header>
+               			<h2>Want to say hello?</h2>
+               			   </header>
+								<form method="post" action="#">
+									<div>
+										<div class="row half">
+											<div class="6u">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+									<div class="actions">
+										<a href="#" class="button big">Send Message</a>
+										<a href="#" class="button alt big">Clear Form</a>
+									</div>
+									</div>
+								</form>
+                                </section>
+							</div>
+               
+							<div class="4u">
+							
+								<section>
+									<header>
+										<h2>You can also find me on</h2>
+									</header>
+									<ul class="social">
+                                    <li><a class="fa fa-twitter solo" href="http://twitter.com/zumbi"><span>Twitter</span></a></li>
+										<li><a class="fa fa-facebook solo" href="#"><span>Facebook</span></a></li>
+										<li><a class="fa fa-linkedin solo" href="#"><span>LinkedIn</span></a></li>
+										<li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li>
+                                    <li><a class="fa fa-skype solo" href="#"><span>Skype</span></a></li>
+									</ul>
+									<ul class="contact">
+										<li>
+											<h3>Mail</h3>
+											<p><a href="#">evarionovoa@gmail.com</a></p>
+										</li>
+                                     <li>
+											<h3>I live in</h3>
+											<p>
+												Espoo, Finland<br />
+											</p>
+										</li>
+										<div id='location-canvas' style='width:99%;height:210px;'></div>
+									</ul>
+								</section>
+							
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+							
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Eva Rio	</li>
+											<li>Images: <a href="http://facebook.com/DreametryDoodle">Dreametry Doodle</a></li>
+											<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</section>
+ 				</div>
+	</body>
+</html>
